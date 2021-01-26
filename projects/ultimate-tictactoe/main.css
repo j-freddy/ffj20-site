@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Brooklyn;
+  src: url("fonts/the-brooklyn-smooth.otf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Brooklyn;
+}
+
+.container-main .title {
+  font-size: 2.4em;
+  font-weight: bold;
+}
+
+.container-main .container-canvas {
+  padding: 0.8em;
+  border: 2px solid black;
+  border-radius: 2em;
+}
+
+.container-main #canvas {
+  border-radius: 1em;
+}
+
+.container-main p {
+  font-size: 1.3em;
+  font-weight: bold;
+}
