@@ -36,7 +36,6 @@ class Tile extends Block
     super(x, y, width);
     this.id = "tile";
     this.subgrid = subgrid;
-
     this.alpha = alpha;
     this.img = img.null;
   }

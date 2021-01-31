@@ -15,7 +15,7 @@
    viewBox="0 0 500 500"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
    sodipodi:docname="cross.svg"
    width="500"
    height="500">
@@ -27,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,7 +43,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1440"
-     inkscape:window-height="856"
+     inkscape:window-height="785"
      id="namedview6"
      showgrid="false"
      fit-margin-top="0"
@@ -51,15 +51,16 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.921875"
-     inkscape:cx="75.118644"
-     inkscape:cy="181.30701"
+     inkscape:cx="73.491525"
+     inkscape:cy="309.30701"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:document-rotation="0" />
   <path
      d="M 325.81818,250 439.53409,136.2841 c 13.95455,-13.95455 13.95455,-36.579553 0,-50.545463 l -25.27273,-25.27272 c -13.95455,-13.954555 -36.57955,-13.954555 -50.54545,0 L 250,174.18183 136.28409,60.465917 c -13.95455,-13.954555 -36.579546,-13.954555 -50.545455,0 l -25.272727,25.27272 c -13.954546,13.95455 -13.954546,36.579553 0,50.545463 L 174.18182,250 60.465908,363.71591 c -13.954546,13.95455 -13.954546,36.57955 0,50.54545 l 25.272727,25.27273 c 13.954545,13.95455 36.590905,13.95455 50.545455,0 L 250,325.81819 363.71591,439.53409 c 13.95454,13.95455 36.5909,13.95455 50.54545,0 l 25.27273,-25.27273 c 13.95455,-13.95454 13.95455,-36.57954 0,-50.54545 L 325.81818,250 Z"
      id="path4"
      inkscape:connector-curvature="0"
-     style="fill:currentColor" />
+     style="fill:#5dd9c1;fill-opacity:1" />
 </svg>

@@ -4,8 +4,8 @@ class Subgrid extends Grid
   {
     //top left
     super(x, y, width);
-    this.frameColour = "#ff0000";
-    this.frameWidth = 1;
+    this.frameColour = "#190933";
+    this.frameWidth = 1.6;
 
     this.active = false;
     this.occupied = 0;
@@ -16,10 +16,10 @@ class Subgrid extends Grid
   {
     if(this.occupied === 0)
     {
-      return 1;
+      return 0.6;
     } else
     {
-      return 0.4;
+      return 0.2;
     }
   }
 
@@ -42,7 +42,7 @@ class Subgrid extends Grid
     ctx.save();
 
     ctx.globalAlpha = this.alpha;
-    ctx.fillStyle = "#ccccff";
+    ctx.fillStyle = "#B084CC";
     ctx.fillRect(this.x, this.y, this.width, this.width);
 
     ctx.restore();

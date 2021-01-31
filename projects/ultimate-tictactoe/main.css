@@ -1,3 +1,23 @@
+/*
+  Colour palette
+  https://coolors.co/5dd9c1-acfcd9-b084cc-665687-190933
+
+  Turqoise
+  5DD9C1
+
+  Magic Mint
+  ACFCD9
+
+  Lavender Floral
+  B084CC
+
+  Cyber Grape
+  665687
+
+  Russian Violet
+  190933
+*/
+
 @font-face {
   font-family: Brooklyn;
   src: url("fonts/the-brooklyn-smooth.otf");
@@ -6,9 +26,11 @@
 html, body {
   margin: 0;
   padding: 0;
+  color: #B084CC;
 }
 
 .container-main {
+  background: #190933;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +45,8 @@ html, body {
 
 .container-main .container-canvas {
   padding: 0.8em;
-  border: 2px solid black;
+  background: #665687;
+  opacity: 0.8;
   border-radius: 2em;
 }
 

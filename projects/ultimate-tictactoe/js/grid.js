@@ -11,8 +11,8 @@ class Grid extends Block
     ];
     this.dataTiles = this.refreshDataTiles();
 
-    this.frameColour = "#000";
-    this.frameWidth = 3;
+    this.frameColour = "#190933";
+    this.frameWidth = 4;
   }
 
   get alpha()
@@ -34,9 +34,9 @@ class Grid extends Block
         let x = this.x + this.tileWidth * j;
         let y = this.y + this.tileWidth * i;
 
-        if(data === 0) dataTiles[i][j] = new Tile(x, y, this.tileWidth, this, this.alpha);
-        if(data === 1) dataTiles[i][j] = new Cross(x, y, this.tileWidth, this, this.alpha);
-        if(data === 2) dataTiles[i][j] = new Nought(x, y, this.tileWidth, this, this.alpha);
+        if(data === 0) dataTiles[i][j] = new Tile(x, y, this.tileWidth, this, this.alpha*2);
+        if(data === 1) dataTiles[i][j] = new Cross(x, y, this.tileWidth, this, this.alpha*2);
+        if(data === 2) dataTiles[i][j] = new Nought(x, y, this.tileWidth, this, this.alpha*2);
       });
     });
 

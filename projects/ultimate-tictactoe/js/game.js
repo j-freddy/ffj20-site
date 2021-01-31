@@ -60,6 +60,15 @@ class MainController
     });
   }
 
+  drawBackground()
+  {
+    ctx.save();
+    ctx.globalAlpha = 0.1;
+    ctx.fillStyle = "#fff";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+  }
+
   init()
   {
     this.player = 1;
@@ -69,6 +78,8 @@ class MainController
   tick()
   {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    this.drawBackground();
+
     const grid = this.grid
     const subgrids = this.subgrids;
     const message = this.message;
