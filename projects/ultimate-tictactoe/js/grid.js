@@ -12,7 +12,7 @@ class Grid extends Block
     this.dataTiles = this.refreshDataTiles();
 
     this.frameColour = "#190933";
-    this.frameWidth = 4;
+    this.frameWidth = 4.5;
   }
 
   get alpha()

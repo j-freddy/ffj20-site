@@ -19,8 +19,8 @@
 */
 
 @font-face {
-  font-family: Brooklyn;
-  src: url("fonts/the-brooklyn-smooth.otf");
+  font-family: Versablock;
+  src: url("fonts/versablock.otf");
 }
 
 html, body {
@@ -35,7 +35,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Brooklyn;
+  font-family: Versablock;
 }
 
 .container-main .title {
@@ -46,7 +46,7 @@ html, body {
 .container-main .container-canvas {
   padding: 0.8em;
   background: #665687;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 2em;
 }
 
@@ -55,6 +55,6 @@ html, body {
 }
 
 .container-main p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: bold;
 }
